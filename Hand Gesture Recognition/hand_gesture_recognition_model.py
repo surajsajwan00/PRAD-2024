@@ -1,9 +1,6 @@
 ## Libraries
-import numpy as np
-import pandas as pd 
-from PIL import Image
-import matplotlib.pyplot as plt
 import os
+import matplotlib.pyplot as plt
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
